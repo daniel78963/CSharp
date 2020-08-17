@@ -1,15 +1,20 @@
 ﻿
 namespace CSharp.ModelCore
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-
     public class CurrentAccount : BankAccount
     {
-        public override double WithDraw(double n)
+        public override string Withdraw(decimal money)
         {
-            throw new NotImplementedException();
+            if (AccountBalance > money)
+            {
+                AccountBalance -= money;
+                WithdrawCount++;
+                return "Withdraw transaction done sucessfully!";
+            }
+            else
+            {
+                return "Withdraw transaction can't be done. Since, you have low account balance!";
+            }
         }
     }
 }

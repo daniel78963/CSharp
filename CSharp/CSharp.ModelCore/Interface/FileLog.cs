@@ -5,6 +5,11 @@ namespace CSharp.ModelCore.Interface
 
     public class FileLog : ILog
     {
-        public string Log { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public void Log(string msg)
+        {
+            Console.WriteLine("Logging error message into file");
+            // TO DO: Write code for saving error into file
+            Console.WriteLine(msg);
+        }
     }
 }

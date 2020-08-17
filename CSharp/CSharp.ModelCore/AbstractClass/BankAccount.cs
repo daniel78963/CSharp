@@ -16,17 +16,18 @@ namespace CSharp.ModelCore
         There can be many types of account like saving account,  current account etc.. 
         */
 
-        public double AccountBalance { get; set; }
-        public double AccountNo { get; set; }
-        public double ServiceCharge { get; set; }
-        public int WithDrawCount { get; set; }
+        public string AccountNo { get; set; }
+        public decimal AccountBalance { get; set; }
+        public decimal ServiceCharge { get; set; } = 10;
+        public int WithdrawCount { get; set; } = 0;
 
 
-        public double Deposit(double n)
+        public string Deposit(decimal money)
         {
-            return n;
+            AccountBalance += money;
+            return "Deposit transaction done sucessfully!";
         }
 
-        public abstract double WithDraw(double n);
+        public abstract string Withdraw(decimal money);
     }
 }
