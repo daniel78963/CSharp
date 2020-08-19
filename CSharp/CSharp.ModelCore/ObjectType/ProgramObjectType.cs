@@ -7,7 +7,7 @@ namespace CSharp.ModelCore.ObjectType
     {
         public static void Main()
         {
-            Utility util = new Utility(); ;
+            Utility util = new Utility(); 
 
             //string result
             object result1 = util.Add("Shailendra", "Chauhan");

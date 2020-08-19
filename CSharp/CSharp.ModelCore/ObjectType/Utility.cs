@@ -5,6 +5,21 @@ namespace CSharp.ModelCore.ObjectType
 
     class Utility
     {
+        //Object Type
+        //An Object is a base class for all types in C#.
+        //All types i.e.predefined, user-defined, reference types and value types are inherited from Object directly or indirectly.
+        //Store any type of value.
+        //Need to cast value into original type to perform desired operations on the value.
+
+        //When to Use Object Type
+        //Useful when you want to store any type of value.
+        //Commonly used as a method return type when your method can return multiple types of values.
+
+        //Key Points About Object Type
+        //An Object type can be passed as a method argument.
+        //Also, a method can return an object type.
+        //Need to cast into original type to use it and performing desired operations.
+
         //accepting two types of parameter:integer and string
         //returning two types of result: integer and string
         public object Add(object param1, object param2)
