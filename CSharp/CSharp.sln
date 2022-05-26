@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.NetConsole", "CSharp.NetConsole\CSharp.NetConsole.csproj", "{5CC13DA9-FBF0-4C7C-BB43-9B08126EA071}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.ModelCore", "CSharp.ModelCore\CSharp.ModelCore.csproj", "{358A9E52-BE94-4C02-83E3-DFBE27F505F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp.ModelCore", "CSharp.ModelCore\CSharp.ModelCore.csproj", "{358A9E52-BE94-4C02-83E3-DFBE27F505F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\HackerRank.csproj", "{31E8B8CB-8D7C-4ADF-92A8-6D858C9CBBDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank2", "HackerRank2\HackerRank2.csproj", "{B21B9255-CAC7-4DB1-9284-9BA45B187E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRank3", "HRank3\HRank3.csproj", "{F3D16923-0D1C-4684-8364-C1A12926A40F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{358A9E52-BE94-4C02-83E3-DFBE27F505F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{358A9E52-BE94-4C02-83E3-DFBE27F505F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{358A9E52-BE94-4C02-83E3-DFBE27F505F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E8B8CB-8D7C-4ADF-92A8-6D858C9CBBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E8B8CB-8D7C-4ADF-92A8-6D858C9CBBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E8B8CB-8D7C-4ADF-92A8-6D858C9CBBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E8B8CB-8D7C-4ADF-92A8-6D858C9CBBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21B9255-CAC7-4DB1-9284-9BA45B187E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21B9255-CAC7-4DB1-9284-9BA45B187E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21B9255-CAC7-4DB1-9284-9BA45B187E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21B9255-CAC7-4DB1-9284-9BA45B187E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3D16923-0D1C-4684-8364-C1A12926A40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D16923-0D1C-4684-8364-C1A12926A40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D16923-0D1C-4684-8364-C1A12926A40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D16923-0D1C-4684-8364-C1A12926A40F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
